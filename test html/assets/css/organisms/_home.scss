@@ -1,0 +1,33 @@
+@import "../component/button";
+@import "../component/card";
+
+.home{
+  .card{
+    &-content {
+      margin: 0 auto;
+      width: 50%;
+      & > .logo {
+        margin-top: $con_m_var + 30px;
+        text-align: center;
+        transform: translateX(2%);
+        img {
+          width: 90%;
+        }
+      }
+      & > .title {
+        margin-top: $con_m_var;
+        width: 100%;
+        text-align: center;
+        font-family: Hiragino Maru Gothic Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 9rem;
+        color: #625b56;
+      }
+      & > .btn_container {
+        margin-top: $con_m_var;
+        text-align: center;
+      }
+    }
+  }
+}
